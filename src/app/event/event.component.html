@@ -1,0 +1,17 @@
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-header">
+      {{event.name}}
+    </h4>
+    <p class="card.text">
+      Price: {{event.price}} <br/>
+      Location: {{event.location}}
+    </p>
+
+    <a href="#" class="btn btn-primary" (click)="handleViewClick()">Click Me</a>
+  </div>
+  <div class="card-footer text-muted">
+      Date:{{event.date}}
+      Time: {{event.time}}
+    </div>
+</div>
